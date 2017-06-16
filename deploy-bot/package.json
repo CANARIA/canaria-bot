@@ -1,0 +1,20 @@
+{
+  "name": "deploy-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "gcloud app deploy"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.5.4",
+    "github": "^9.2.0"
+  }
+}

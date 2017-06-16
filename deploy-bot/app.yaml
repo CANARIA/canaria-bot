@@ -1,0 +1,12 @@
+runtime: nodejs
+env: flex
+entrypoint: npm start
+skip_files:
+  - ^(.*/)?.*/node_modules/.*$
+threadsafe: true
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 2
+env_variables:
+  SLACK_TOKEN: 'xoxb-198947820727-qNdt4VSilWzm1LcUjrJSOknR'
+  GITHUB_ACCESS_TOKEN: '9e3017cef58275b1473e354939672b33681f8b88'
